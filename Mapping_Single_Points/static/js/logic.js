@@ -6,10 +6,10 @@ let map = L.map('mapid').setView([34.0522, -118.2437], 14);
 
 //  Add a marker to the map for Los Angeles, California.
 L.circleMarker([34.0522, -118.2437], {
+    radius: 300,
     color: "black",
     fillColor: "lightyellow",
-    fillOpacity: 0.5,
-    radius: 300
+    fillOpacity: 0.5
 }).addTo(map);
 
 // We create the tile layer that will be the background of our map.
